@@ -1,7 +1,8 @@
 // Import Assets
 import uniswap from '../assets/uniswap.png';
 import compound from '../assets/compound.png';
-import aave from '../assets/aave.png';
+import inheritance from '../assets/inheritance.png';
+import reefergames from '../assets/reefergames.png';
 
 const Projects = () => {
     return (
@@ -11,11 +12,9 @@ const Projects = () => {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Uniswap</h3>
-                    <img src={uniswap} alt="Uniswap Swap Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <h3>REEFER.GAMES</h3>
+                    <img src={reefergames} alt="Uniswap Swap Page" />
+                    <p>Designed within the invaluable team of FISIDI creators, the web 3.0 project REEFER.GAMES conquers new territory while simultaneously branching what we understand to be blockchain gaming. The novelty of the NFT experience has only begun, we
                     </p>
 
                     <a href="https://uniswap.org/" target="_blank" className="button">Site</a>
@@ -35,11 +34,11 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__card">
-                    <h3>Aave</h3>
-                    <img src={aave} alt="Aave Landing Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <h3>INHERITANCE EP</h3>
+                    <img src={inheritance} alt="Aave Landing Page" />
+                    <p>Expanding the repitore of sounds in our earth, Inheritance is a melding of ground-rattling music production with subtle lyrical coding. Developped over 3 years, this sound design experience is sure to have you moving, thinking, and most of all growing as a creator - for that is the reason it exists.
+
+
                     </p>
 
                     <a href="https://aave.com/" target="_blank" className="button">Site</a>
